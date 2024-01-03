@@ -28,8 +28,11 @@ function Quiz() {
         setScore(0);
     }
   return (
-    <div>
+    <>
+    <div className='navbar'>
         <p className="heading-txt">Quiz APP</p>
+    </div>
+    <div>
         <div className="container">
             {showResult ? (
                 <QuizResult score={score} totalScore={QuizData.length} tryAgain={resetAll}/>
@@ -59,6 +62,7 @@ function Quiz() {
             </>)}
         </div>
     </div>
+    </>
   )
 }
 

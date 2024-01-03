@@ -8,7 +8,7 @@ body{
   align-items: center;
   justify-content: center;    
   /* background-image: linear-gradient(purple,rgb(238, 48, 238)); */
-  background-color: #3aaccb;
+  background-color: #153240;
   min-height: 100vh;
   width: 100%;
 }
@@ -18,7 +18,7 @@ body{
   align-items: center;
   flex-direction: column;
   min-height: 400px;
-  width: 400px;
+  max-width: 400px;
   background-color: white;
   border-radius: 15px;
   /* box-shadow: 2px 2px 10px 1px rgb(102, 3, 102); */
